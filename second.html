@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <video src="./react.mp4" controls width="500" height="400"></video> 
+  <img
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*"
+            alt="강아지 사진"
+            width="200"
+            height="100"
+        />
+        <img
+            src="https://www.humanesociety.org/sites/default/files/2022-08/hl-yp-cats-579652.jpg"
+            title="고양이 사진"
+            style="float: left; width: 200px; height: 100px"
+        />
+      <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NlA7MNMD2dw?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+  <label for="name">이름:</label>
+<input type="text" id="name" name="name" value="Suan" size="20">
+<textarea name="article" rows="20" cols="30">
+  텍스트
+  여기에 텍스트를 입력하시면 됩니다. 
+  </textarea>
+  <button>Button</button>
+  input type ="text" name="text" size="20">
+  <input type="button" value="Button">
+  <input type="radio" name="gender" value="male">남자
+<input type="radio" name="gender" value="female">여자
+  <form>
+    <fieldset>
+      <legend>개인정보</legend>
+      <label for="name">이름:</label> </br>
+      <input type="text" id="name" name="name" value="이석민"> </br>
+      <label for="affiliation">소속:</label> </br>
+      <input type="text" id="affiliation" name="affiliation" value="공빅"> </br>
+      <input type="submit" value="전송">
+    </fieldset>
+</form>
+  <form name="signUp" action="signUp.jsp" method="post">
+    <fieldset width="500px" height="600px">
+      <legend>회원가입</legend>
+      아이디 : <input type="text" name="id" placeholder="아이디를 입력 해주십시오." required>
+      <button type="button" onclick="alert('사용가능한 아이디 입니다!')">아이디 확인</button> </br>
+      비밀번호 : <input type="password" placeholder="8글자 이상 입력 해주십시오." required> </br>
+      생년월일 : <input type="date" name="birthday"><br><br>
+      이메일 : <input type="email" name="email" placeholder="이메일을 기입해주십시오." required> </br>
+      전화번호 : <input type="tel" name="tel" placeholder="연락처를 기입해주십시오." required> </br>
+      사이트를 알게된 경로: </br>
+      <input type="checkbox" name="a" value="serch">검색
+      <input type="checkbox" name="a" value="friend">친구
+      <input type="checkbox" name="a" value="recommend">추천
+      <input type="checkbox" name="a" value="adv">광고
+      <input type="checkbox" name="a" value="ect">기타
+    </fieldset>
+    <button type="submit">회원가입</button>
+    <button type="reset">다시 입력</button>
+  </form>
+</body>
+</html>
